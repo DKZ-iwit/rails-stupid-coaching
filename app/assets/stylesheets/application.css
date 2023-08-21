@@ -13,3 +13,29 @@
  *= require_tree .
  *= require_self
  */
+
+ .chat-bubble {
+  display: inline-block;
+  max-width: 80%;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 15px;
+  font-size: 14px;
+}
+
+.question-bubble {
+  background-color: #efefef;
+}
+
+.coach-bubble {
+  background-color: #ffc0cb;
+  text-align: right;
+}
+
+.question {
+  margin: 0;
+}
+
+.coach-answer {
+  margin: 0;
+}

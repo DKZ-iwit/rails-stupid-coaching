@@ -1,0 +1,16 @@
+<div class="mt-4 chat-container">
+    <div class="d-flex flex-column align-items-start">
+      <div class="chat-bubble question-bubble mb-2">
+        <p class="question"><%= params[:question] %></p>
+        <p class="participant">- <em>You</em></p>
+      </div>
+
+      <div class="chat-bubble coach-bubble">
+        <p class="coach-answer"><%= @answer %></p>
+        <p class="participant">- <em>Your coach</em></p>
+      </div>
+    </div>s
+
+    <%= link_to "Bother me again with another question!", "/askcoach", class: "btn btn-danger mt-3" %>
+  </div>
+</div>
